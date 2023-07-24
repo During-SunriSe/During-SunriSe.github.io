@@ -9,7 +9,7 @@ const routes = {
   404: "/pages/404.html",
   "/": "./index.html",
   "/index.html": "./index.html",
-  "/Lehrbuch.github.io/": "./index.html",
+  "/Lehrbuch/": "./index.html",
   "/about": "/pages/about.html",
   "/chapter1": "/pages/chapter1.html",
   "/chapter11": "/pages/chapter1.html",
