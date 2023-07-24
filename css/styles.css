@@ -54,7 +54,7 @@ a {
 }
 
 a:hover {
-  font-weight: bold;
+  font-weight: 900;
 }
 
 .err {
