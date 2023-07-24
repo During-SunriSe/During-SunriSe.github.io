@@ -10,13 +10,13 @@ const routes = {
   "/": "./index.html",
   "/index.html": "./index.html",
   "/Lehrbuch/": "./index.html",
-  "/Lehrbuch/about": "/pages/about.html",
-  "/Lehrbuch/chapter1": "/pages/chapter1.html",
-  "/Lehrbuch/chapter11": "/pages/chapter1.html",
-  "/Lehrbuch/chapter12": "/pages/chapter12.html",
-  "/Lehrbuch/chapter13": "/pages/chapter13.html",
-  "/Lehrbuch/chapter2": "/pages/chapter2.html",
-  "/Lehrbuch/chapter3": "/pages/chapter3.html",
+  "/Lehrbuch/about": "./pages/about.html",
+  "/Lehrbuch/chapter1": "./pages/chapter1.html",
+  "/Lehrbuch/chapter11": "./pages/chapter1.html",
+  "/Lehrbuch/chapter12": "./pages/chapter12.html",
+  "/Lehrbuch/chapter13": "./pages/chapter13.html",
+  "/Lehrbuch/chapter2": "./pages/chapter2.html",
+  "/Lehrbuch/chapter3": "./pages/chapter3.html",
 };
 
 const handleLocation = async () => {
