@@ -53,6 +53,11 @@ a {
   margin-bottom: 5px;
 }
 
+a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
 .err {
   display: flex;
   flex-direction: column;
