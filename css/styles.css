@@ -53,7 +53,7 @@ a {
   margin-bottom: 5px;
 }
 
-a:hover {
+a:hover:not(.back-a) {
   font-weight: 900;
 }
 
@@ -64,10 +64,13 @@ a:hover {
 }
 
 .back {
+  transition: 2s;
   position: fixed;
   background-color: bisque;
   padding: 7px 7px 7px 7px;
   border: solid;
+  border-color: black;
+  color: black;
   border-radius: 15px;
   border-width: 3px;
   font-size: 18px;
