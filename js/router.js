@@ -15,7 +15,7 @@ const routes = {
   "/chapter11": "/pages/chapter1.html",
   "/chapter12": "/pages/chapter12.html",
   "/chapter13": "/pages/chapter13.html",
-  "/chapter2": "/pages/chapter2.html",
+  "/chapter2": "/pages/chapter21.html",
   "/chapter3": "/pages/chapter3.html",
 };
 
