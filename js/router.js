@@ -18,6 +18,7 @@ const routes = {
   "/chapter2": "/pages/chapter21.html",
   "/chapter22": "/pages/chapter22.html",
   "/chapter23": "/pages/chapter23.html",
+  "/chapter24": "/pages/chapter24.html",
   "/chapter3": "/pages/chapter3.html",
 };
 
