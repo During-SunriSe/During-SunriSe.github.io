@@ -53,7 +53,7 @@ a {
   margin-bottom: 5px;
 }
 
-a:hover:not(.back-a) {
+a:hover:not(.back a) {
   font-weight: 900;
 }
 
@@ -84,6 +84,15 @@ a:hover:not(.back-a) {
 .back:hover {
   background-color: black;
   color: bisque;
+}
+
+.next {
+  left: 90%;
+  transform: translateX(-50%);
+}
+
+.prev {
+  left: 10%;
 }
 
 .main {

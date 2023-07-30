@@ -16,10 +16,11 @@ const routes = {
   "/chapter12": "/pages/chapter12.html",
   "/chapter13": "/pages/chapter13.html",
   "/chapter2": "/pages/chapter21.html",
+  "/chapter21": "/pages/chapter21.html",
   "/chapter22": "/pages/chapter22.html",
   "/chapter23": "/pages/chapter23.html",
   "/chapter24": "/pages/chapter24.html",
-  "/chapter3": "/pages/chapter3.html",
+  "/chapter3": "/pages/chapter31.html",
 };
 
 const handleLocation = async () => {
