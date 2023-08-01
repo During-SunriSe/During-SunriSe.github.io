@@ -104,3 +104,11 @@ li {
   list-style-position: inside;
   padding-bottom: 5px;
 }
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
