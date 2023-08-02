@@ -27,6 +27,7 @@ const routes = {
   "/chapter53": "/pages/chapter53.html",
   "/chapter61": "/pages/chapter61.html",
   "/chapter62": "/pages/chapter62.html",
+  "/chapter63": "/pages/chapter63.html",
 };
 
 const handleLocation = async () => {
