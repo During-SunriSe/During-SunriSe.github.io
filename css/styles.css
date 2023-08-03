@@ -1,4 +1,5 @@
 html {
+  scroll-behavior: smooth;
   padding-bottom: 100px;
 }
 

@@ -5,6 +5,10 @@ const route = (event) => {
   handleLocation();
 };
 
+async function scrollToTop() {
+  window.scrollTo(0, 0);
+}
+
 const routes = {
   404: "/pages/404.html",
   "/": "./index.html",
@@ -40,6 +44,7 @@ const handleLocation = async () => {
 
   const html = await fetch(route).then((data) => data.text());
   document.body.innerHTML = html;
+  await scrollToTop();
 };
 
 window.onpopstate = handleLocation;
